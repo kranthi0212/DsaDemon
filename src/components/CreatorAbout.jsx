@@ -154,7 +154,7 @@ const CreatorAbout = () => {
     style={{ color: 'white', fontFamily: 'calibri', marginBottom: '1rem' }}
     >
     <a
-      href="/"
+      href="/DsaDemon"
     >
       Back
     </a>
