@@ -156,7 +156,7 @@ const CreatorAbout = () => {
     <a
       href="/"
     >
-      Home
+      Back
     </a>
     </h3>
       <BannerImage src={
