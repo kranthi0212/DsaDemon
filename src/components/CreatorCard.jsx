@@ -11,7 +11,7 @@ import fraz from "../assets/mohammadfraz.png";
 const CreatorCard = ({ name, description, id }) => {
   const navigate = useNavigate();
   return (
-    <div className="ag-format-container" onClick={() => navigate(`/creator/${id}`)} >
+    <div className="ag-format-container" onClick={() => navigate(`/DsaDemon/creator/${id}`)} >
       <div className="ag-courses_box">
         <div className="ag-courses_item">
           <div href="#" className="ag-courses-item_link">

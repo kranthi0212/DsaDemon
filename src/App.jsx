@@ -14,8 +14,8 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route path="/" element={<Navbar />} />
-        <Route path="/creator/:id" element={<CreatorAbout />} />
+        <Route path="/DsaDemon" element={<Navbar />} />
+        <Route path="/DsaDemon/creator/:id" element={<CreatorAbout />} />
       </Routes>
       
     </BrowserRouter>

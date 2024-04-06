@@ -143,8 +143,8 @@ const SocialNumber = styled.h2`
 `
 
 const CreatorAbout = () => {
-  const location = useLocation();;
-  const id = location.pathname.split("/")[2];
+  const location = useLocation();
+  const id = location.pathname.split("/")[3];
 
   const data = createData.find((item) => item.id === id);
   const socials = ['Youtube', 'Linkedin', 'Instagram', 'Twitter'];
